@@ -29,6 +29,8 @@ Mô hình MSP gồm 3 thành phần chính:
 
 Mỗi modal được nối với một **prompt mềm (soft prompt)** rồi đi vào module **kết hợp đa modal (cross-modal fusion)**. Sau đó, phần đầu ra được đưa qua **head phân loại** để dự đoán nhãn.
 
+## Chương trình nằm tại file _'NLP final.ipynb'_
+
 ## Kết quả đạt được
 
 ### Toàn bộ dữ liệu huấn luyện (full train)
