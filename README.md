@@ -1,6 +1,6 @@
 # MSP - Nhận diện Clickbait đa mô hình bằng Soft Prompt-tuning
 
-Đây là dự án triển khai mô hình **MSP (Multimodal Soft Prompt-tuning)** cho bài toán **nhận diện tiêu đề giật gân (clickbait)**. Mô hình sử dụng dữ liệu đa phương thức gồm **văn bản**, **hình ảnh**, và **cấu trúc cú pháp**, kết hợp với cơ chế **prompt mềm** để tối ưu hiệu quả học với dữ liệu ít (few-shot).
+Đây là dự án triển khai mô hình **MSP (Multimodal Soft Prompt-tuning)** cho bài toán **nhận diện tiêu đề giật gân (clickbait)** với ngôn ngữ Anh. Mô hình sử dụng dữ liệu đa phương thức gồm **văn bản**, **hình ảnh**, và **cấu trúc cú pháp**, kết hợp với cơ chế **prompt mềm** để tối ưu hiệu quả học với dữ liệu ít (few-shot).
 
 ## Bài toán
 
