@@ -6,6 +6,8 @@
 
 Xác định xem một bài đăng (gồm tiêu đề và hình ảnh) có phải là **clickbait** hay không.
 
+#### Chương trình nằm tại file _'NLP final.ipynb'_
+
 ## Kiến trúc mô hình
 
 Mô hình MSP gồm 3 thành phần chính:
@@ -29,8 +31,6 @@ Mô hình MSP gồm 3 thành phần chính:
 
 Mỗi modal được nối với một **prompt mềm (soft prompt)** rồi đi vào module **kết hợp đa modal (cross-modal fusion)**. Sau đó, phần đầu ra được đưa qua **head phân loại** để dự đoán nhãn.
 
-## Chương trình nằm tại file _'NLP final.ipynb'_
-
 ## Kết quả đạt được
 
 ### Toàn bộ dữ liệu huấn luyện (full train)
@@ -47,7 +47,7 @@ Khi huấn luyện với số mẫu ít trên mỗi lớp (k-shot), mô hình MS
 | 10                      | ~0.80    | ~0.78    |
 | 20                      | ~0.86    | ~0.85    |
 
-![Biểu đồ accuracy và F1 theo k-shot](output.png)
+![Biểu đồ accuracy và F1 theo k-shot](data_csv/output.png)
 
 _Biểu đồ: Kết quả trên tập test với các thiết lập few-shot_
 
